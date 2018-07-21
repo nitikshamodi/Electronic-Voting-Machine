@@ -1,0 +1,24 @@
+NET "reset" 		LOC = "A7";
+NET "c" 				LOC = "N3";
+NET "d" 				LOC = "E2";
+NET "e" 				LOC = "F3";
+NET "f" 				LOC = "G3";
+NET "g" 				LOC = "B4";
+NET "h" 				LOC = "K3";
+NET "j" 				LOC = "L3";
+NET "b" 				LOC = "P11";
+NET "a" 				LOC = "G12";
+NET "k" 				LOC = "C11";
+NET "submit"	LOC = "M4";
+NET "back_space"	LOC = "A9";
+
+NET "LCD_E"    	LOC = "C6"  | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "LCD_RS"   	LOC = "C5"  | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "LCD_RW"   	LOC = "B6"  | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+
+NET "SF_D<8>"  	LOC = "B5"  | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "SF_D<9>"  	LOC = "D12" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "SF_D<10>" 	LOC = "A3"  | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "SF_D<11>" 	LOC = "C13" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+
+NET "CLK"      	LOC = "B8"  | IOSTANDARD = LVCMOS33 ;
